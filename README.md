@@ -1,17 +1,24 @@
-# fashionMNIST-simple
+# CNN on MNIST Dataset (PyTorch)
 
-
-# CNN for fashionMNIST Classification
-
-This notebook implements a simple Convolutional Neural Network (CNN) with PyTorch to classify digits from the fashionMNIST dataset.
+This project implements a Convolutional Neural Network (CNN) using PyTorch to classify handwritten digits from the MNIST dataset.
 
 ## Features
-- Preprocessing of MNIST dataset
-- CNN model architecture
-- Training and evaluation
-- Accuracy and loss visualization
 
-## How to Run
-Make sure you have the required libraries installed:
+- Loads MNIST dataset using `torchvision.datasets`
+- Defines a CNN model with `torch.nn`
+- Uses a training loop with manual accuracy calculation
+- Visualizes loss and accuracy with `matplotlib`
+- Measures performance with `timeit`
+- Uses a custom helper module (`helper_functions.py`) for reusable utilities
+
+
+## Requirements
+
+Install required packages using:
+
 ```bash
-pip install tensorflow matplotlib numpy requests
+pip install torch torchvision matplotlib requests
+
+or with a requirements file:
+```bash
+pip install -r requirements.txt
