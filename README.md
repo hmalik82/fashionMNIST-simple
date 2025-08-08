@@ -3,7 +3,7 @@
 
 # CNN for fashionMNIST Classification
 
-This notebook implements a simple Convolutional Neural Network (CNN) using TensorFlow/Keras to classify digits from the MNIST dataset.
+This notebook implements a simple Convolutional Neural Network (CNN) with PyTorch to classify digits from the fashionMNIST dataset.
 
 ## Features
 - Preprocessing of MNIST dataset
