@@ -18,6 +18,7 @@ Install required packages using:
 
 ```bash
 pip install torch torchvision matplotlib requests
+```
 
 or with a requirements file:
 ```bash
