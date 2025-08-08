@@ -1,6 +1,6 @@
 # CNN on MNIST Dataset (PyTorch)
 
-This project implements a Convolutional Neural Network (CNN) using PyTorch to classify handwritten digits from the MNIST dataset.
+This project implements a Convolutional Neural Network (CNN) using PyTorch to classify images from the FashionMNIST dataset — a drop-in replacement for the classic MNIST dataset, but with images of clothing items.
 
 ## Features
 
